@@ -1,0 +1,11 @@
+version: 2
+
+
+models:
+  - name: stg_payments
+    description: i honestly dont know its demo data
+    columns:
+      - name: payment_method
+        description: how we get that money
+        tests:
+          - not_null
